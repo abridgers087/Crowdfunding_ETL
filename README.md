@@ -11,4 +11,4 @@ PART 2 - Create the Campaign DataFrame, which will out put the campaign.csv file
 
 PART 3 - Create the Contacts DataFrame, which will output the contacts.csv file to the Resources folder.
     
-PART 4 - Create the Crowdfunding Database (the code was made using postgres) using the crowdfunding_db_schema.sql file in the main directory. If needed for reference, there is an ERD included in the Resources folder. Manually import your CSV files into the tables created using the Schema. Use the code provided in the 'SQL Verification and CSV Load Commands' file to confirm creation of the tables and to confirm the data correctly imported to each table.
+PART 4 - Create the Crowdfunding Database (the code was made using postgres) using the crowdfunding_db_schema.sql file in the main directory. If needed for reference, there is an ERD included in the Resources folder. Manually import your CSV files into their respective tables. Use the code provided in the 'SQL Verification and CSV Load Commands' file to confirm creation of the tables and to confirm the data correctly imported to each table.
