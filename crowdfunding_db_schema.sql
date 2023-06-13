@@ -21,7 +21,7 @@ CREATE TABLE contacts (
 -- Table schema for campaign table
 CREATE TABLE campaign (
     cf_id SERIAL PRIMARY KEY,
-    contact_id INT REFERENCES contacts(contact_id) ON DELETE SET NULL,
+    contact_id INT REFERENCES contacts(contact_id),
     company_name VARCHAR(255) NOT NULL,
     description TEXT NOT NULL,
     goal DECIMAL(10, 2) NOT NULL,
@@ -34,7 +34,7 @@ CREATE TABLE campaign (
     end_date DATE NOT NULL,
     category VARCHAR(255) NOT NULL,
     subcategory VARCHAR(255) NOT NULL,
-    category_id VARCHAR(255) DEFAULT 'unknown',
-    subcategory_id VARCHAR(255) DEFAULT 'unknown',
+    category_id VARCHAR(255),
+    subcategory_id VARCHAR(255),
     subcategory_name VARCHAR(255) NOT NULL
 );
