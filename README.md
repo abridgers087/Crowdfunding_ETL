@@ -5,8 +5,9 @@ Notes: starter files are in the Resources folder (crowdfunding and contacts_star
 
 <b>IMPORTANT:</b></br>
 <b><i>When you reach "Extract the contacts.xlsx Data" in the Part 3:</br></b></i>
-If you are using Pandas 1.4.4: Use this code: contact_info_df = pd.read_excel('Resources/contacts_starter.xlsx', header=2, engine='openpyxl')</br>
-If you are using Pandas 1.5.3: Use this code: contact_info_df = pd.read_excel('Resources/contacts_starter.xlsx', header=3, engine='openpyxl')</br>
+
+If you are using <b>Pandas 1.4.4</b>: Use this code: contact_info_df = pd.read_excel('Resources/contacts_starter.xlsx', header=2, engine='openpyxl')</br>
+If you are using <b>Pandas 1.5.3</b>: Use this code: contact_info_df = pd.read_excel('Resources/contacts_starter.xlsx', header=3, engine='openpyxl')</br>
 
 Use the provided code (ETL_Mini_Project_ABridgers_HRiebow) to do the following:
 
